@@ -1,4 +1,4 @@
-[
+const messages = [
     {
         "from": "Andrezza",
         "to": "Rafael",
@@ -66,3 +66,9 @@
         "msDate": 1737254820000
     }
 ]
+
+function getData() {
+    return messages;
+}
+
+module.exports = { getData }
